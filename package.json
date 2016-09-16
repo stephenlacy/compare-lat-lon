@@ -1,0 +1,40 @@
+{
+  "name": "compare-lat-lon",
+  "version": "0.1.0",
+  "description": "Compares the distance between two sets of coordinates",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test/*.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevelacy/compare-lat-lon.git"
+  },
+  "keywords": [
+    "lat",
+    "lon",
+    "coordinates",
+    "latitude",
+    "longitude",
+    "distance"
+  ],
+  "engines": {
+    "node": ">= 4"
+  },
+  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevelacy/compare-lat-lon/issues"
+  },
+  "homepage": "https://github.com/stevelacy/compare-lat-lon#readme",
+  "devDependencies": {
+    "code": "^3.0.2",
+    "lab": "^11.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "index.js"
+  ]
+}
